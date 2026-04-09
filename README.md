@@ -77,6 +77,15 @@ pipeline
 
   * Final optimized distributed pipeline
 
+## Why Dask
+
+Pandas processing became inefficient for large datasets due to memory and single-thread limitations.
+
+Dask enabled:
+- Parallel processing using partitions
+- Scalable execution across workers
+- Efficient handling of large datasets
+
 original_scripts
 
 * Contains legacy scripts representing the original implementation
